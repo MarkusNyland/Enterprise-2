@@ -9,8 +9,7 @@ package org.tsdes.advanced.kotlin
 class KotlinBase {
 
     //"public" is default scope
-    fun startWithFoo(s: String)
-            : Boolean  //return type is specified at the end after ":"
+    fun startWithFoo(s: String) : Boolean  //return type is specified at the end after ":"
     {
         val foo = "foo"  //no need for ";" at the end
 
@@ -26,4 +25,21 @@ class KotlinBase {
 
         return s.startsWith(foo)
     }
+
+    fun createKotlinBaseApply() : KotlinBase {
+        return KotlinBase().apply { this.startWithFoo("foodora") }
+    }
+
+    fun createKotlinBaseRun() : Boolean {
+        return KotlinBase().run { startWithFoo("foodora") }
+    }
+
+    fun createKotlinBaseAlso() : KotlinBase {
+        return KotlinBase().also { it.startWithFoo("foodora") }
+    }
+
+    fun createKotlinBaseLet() : Boolean {
+        return KotlinBase().let { startWithFoo("foodora") }
+    }
+
 }

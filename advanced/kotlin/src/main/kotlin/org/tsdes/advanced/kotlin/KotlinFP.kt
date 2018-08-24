@@ -46,7 +46,8 @@ class KotlinFP {
         if (emptyLineIndex < 0 || emptyLineIndex == lines.lastIndex){
             return null
         } else {
-            return lines.subList(emptyLineIndex + 1, lines.size).joinToString("\n")
+            val x =  lines.subList(emptyLineIndex + 1, lines.size).joinToString("\n")
+            return x
         }
     }
 
@@ -72,4 +73,16 @@ class KotlinFP {
            however it can become difficult to read...
         */
     }
+}
+
+fun main(args: Array<String>) {
+    val kotlinFP = KotlinFP();
+
+    kotlinFP.getHttpBodyBlockNoFP("""rgwegwehwrywr
+        eryhwruru
+        etjetirtyi
+
+        1
+        2
+    """.trimIndent())
 }
