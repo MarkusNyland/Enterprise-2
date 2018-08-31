@@ -27,6 +27,8 @@ import javax.persistence.PersistenceContext
  *
  * Created by arcuri82 on 16-Jun-17.
  */
+
+// Arver fra CrudRepository som ternger entititet class og dens pk type i parameteren
 @Repository
 interface NewsRepository : CrudRepository<NewsEntity, Long>, NewsRepositoryCustom {
 
