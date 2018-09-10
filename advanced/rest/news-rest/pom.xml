@@ -118,5 +118,9 @@
             <artifactId>resteasy-client</artifactId>
             <scope>test</scope>
         </dependency>
+        <dependency>
+            <groupId>org.tsdes.advanced</groupId>
+            <artifactId>example-news</artifactId>
+        </dependency>
     </dependencies>
 </project>

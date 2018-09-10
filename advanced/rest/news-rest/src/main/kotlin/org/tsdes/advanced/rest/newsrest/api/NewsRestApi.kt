@@ -57,7 +57,7 @@ class NewsRestApi {
 
 
     @Autowired
-    private lateinit var crud: NewsRepository
+    private lateinit var crud: NewsRepository;
 
     @ApiOperation("Get all the news")
     @GetMapping
