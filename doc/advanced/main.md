@@ -54,6 +54,63 @@ The course is composed of 12 lessons, each one lasting between 2 and 4 hours.
 
 <br />
 
+* **Lesson 05**: Wrapped Responses and Pagination
+  
+  Slides: [[pdf]](slides/lesson_05.pdf), 
+          [[pptx]](slides/lesson_05.pptx)
+          
+  Modules:     
+  
+  * **advanced/rest/wrapper**
+  * **advanced/rest/rest-dto**
+  * **advanced/rest/pagination**
+
+<br />
+
+* **Lesson 06**: Exceptions in Spring, Mocking and Circuit Breakers
+  
+  Slides: [[pdf]](slides/lesson_06.pdf), 
+          [[pptx]](slides/lesson_06.pptx)
+          
+  Modules:     
+  
+  * **advanced/rest/exception-handling**
+  * **advanced/rest/wiremock**
+  * **advanced/rest/circuit-breaker**
+
+<br />
+
+
+* **Lesson 07**: Conditional Requests and Caching
+  
+  Slides: [[pdf]](slides/lesson_07.pdf), 
+          [[pptx]](slides/lesson_07.pptx)
+          
+  Modules:     
+  
+  * **advanced/rest/conditional-get**
+  * **advanced/rest/conditional-change**
+  * **advanced/rest/cache**
+
+<br />
+
+* **Lesson 08**: SOAP and GraphQL
+  
+  Slides: [[pdf]](slides/lesson_08.pdf), 
+          [[pptx]](slides/lesson_08.pptx)
+          
+  Modules:     
+  
+  * **advanced/graphql/base**
+  * **advanced/graphql/resolver**
+  * **advanced/graphql/database**
+  * **advanced/graphql/graphql-dto**
+  * **advanced/graphql/mutation**
+  * **advanced/graphql/news-graphql**
+
+<br />
+
+
 TODO remaining classes
 
 ## External Resources
@@ -85,7 +142,8 @@ TODO remaining classes
   Note: in that link it is called *Designing and Deploying Microservices*.  All of it.
 * Spring [online documentation](https://spring.io).
   Plenty of resources and tutorials.
-* Kotlin [documentation](https://kotlinlang.org/docs/kotlin-docs.pdf).
+* Kotlin [online documentation](https://kotlinlang.org/docs/kotlin-docs.pdf).
+* GraphQL [online documentation](https://graphql.org/).
 
 ## Exercises
 
